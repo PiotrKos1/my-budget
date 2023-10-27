@@ -1,0 +1,399 @@
+{
+  "budget": [
+    {
+      "name": "sport",
+      "id": 5
+    },
+    {
+      "name": "zakupy",
+      "id": 6
+    },
+    {
+      "name": "s",
+      "id": 7
+    },
+    {
+      "name": "s",
+      "id": 8
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "name": "zakupy na obiad",
+      "price": 47,
+      "budgetCategoryId": 4
+    },
+    {
+      "id": 2,
+      "name": "święta",
+      "price": 82,
+      "budgetCategoryId": 4
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 3
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 4
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 7
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 8
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 9
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 10
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 11
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 12
+    },
+    {
+      "budgetCategoryId": 4,
+      "name": "hej",
+      "id": 13
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 21
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 22
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 23
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 24
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 25
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 26
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 27
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 28
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 29
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 30
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 31
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 32
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 33
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 34
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 35
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 36
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 37
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 38
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 39
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 40
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 41
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 42
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 43
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 44
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 45
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 46
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 47
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 48
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 49
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 50
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 51
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 52
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 53
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 54
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 55
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 56
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "ok",
+      "price": 4,
+      "id": 57
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 58
+    },
+    {
+      "budgetCategoryId": 6,
+      "name": "ok",
+      "price": 4,
+      "id": 59
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 60
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 61
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 62
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 63
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 64
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 65
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 66
+    },
+    {
+      "budgetCategoryId": 5,
+      "id": 67
+    },
+    {
+      "budgetCategoryId": 6,
+      "id": 68
+    },
+    {
+      "data": {
+        "budgetCategoryId": 7,
+        "name": "",
+        "price": ""
+      },
+      "id": 69
+    },
+    {
+      "data": {
+        "budgetCategoryId": 7,
+        "name": "",
+        "price": ""
+      },
+      "id": 70
+    },
+    {
+      "data": {
+        "budgetCategoryId": 7,
+        "name": "c",
+        "price": "4"
+      },
+      "id": 71
+    },
+    {
+      "data": {
+        "budgetCategoryId": 7,
+        "name": "c",
+        "price": "4"
+      },
+      "id": 72
+    },
+    {
+      "data": {
+        "budgetCategoryId": 7,
+        "name": "c",
+        "price": "455"
+      },
+      "id": 73
+    },
+    {
+      "data": {
+        "budgetCategoryId": 7,
+        "name": "c",
+        "price": "455"
+      },
+      "id": 74
+    },
+    {
+      "budgetCategoryId": 7,
+      "name": "dsd",
+      "price": "44",
+      "id": 76
+    },
+    {
+      "budgetCategoryId": 7,
+      "name": "obiad",
+      "price": "44",
+      "id": 77
+    },
+    {
+      "budgetCategoryId": 7,
+      "name": "obiaddsds",
+      "price": "44",
+      "id": 78
+    },
+    {
+      "budgetCategoryId": 7,
+      "name": "obiaddsds",
+      "price": "4444",
+      "id": 79
+    },
+    {
+      "budgetCategoryId": 7,
+      "name": "obiaddsds",
+      "price": "444",
+      "id": 80
+    },
+    {
+      "budgetCategoryId": 7,
+      "name": "obiaddsds",
+      "price": "44",
+      "id": 81
+    },
+    {
+      "budgetCategoryId": 5,
+      "name": "sd",
+      "price": "333",
+      "id": 82
+    }
+  ]
+}
