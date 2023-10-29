@@ -1,3 +1,6 @@
+-A simple app to control your budget and expenses builded in react,
+-Used react redux to manage state and redux toolkit, a.o. RTK Query 
+____________________________________________________________________________________________
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
