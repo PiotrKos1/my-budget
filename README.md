@@ -1,5 +1,6 @@
 -A simple app to control your budget and expenses builded in react,
--Used react redux to manage state and redux toolkit, a.o. RTK Query 
+-Used react redux to manage state and redux toolkit, a.o. RTK Query,
+-Styled with Tailwind Css
 ____________________________________________________________________________________________
 # Getting Started with Create React App
 
