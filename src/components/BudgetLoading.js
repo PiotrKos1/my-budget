@@ -4,13 +4,16 @@ import { fetchBudget } from "../store/thunks/fetchBudget"
 import { addBudgetCategory } from "../store/store"
 import BudgetPanel from "./BudgetPanel"
 
+
 function BudgetLoading() {
     const dispatch = useDispatch()
     const [categoryValue, setCategoryValue] = useState('')
     const [isLoadingBudget, setIsLoadingBudget] = useState(false)
     const [isLoadingBudgetError, setIsLoadingBudgetError] = useState(null)
-    const {isLoading, data, error} = useSelector((state)=>{return state.budget})
-
+    const {data} = useSelector((state)=>{return state.budget})
+    
+   
+  
     useEffect(()=>{
         setIsLoadingBudget(true)
         dispatch(fetchBudget())
@@ -22,22 +25,23 @@ function BudgetLoading() {
 
     const handleSubmitCategory = (event) => {
         event.preventDefault()
-        console.log('ok')
         if (categoryValue !== '') {
         dispatch(addBudgetCategory(categoryValue))}
+        setCategoryValue('')
     }
 
     const handleChangeCategory = (event) => {
         setCategoryValue(event.target.value)
-        console.log(categoryValue)
     }
+
   
     let content
     if (isLoadingBudget) {
       content = <p>Loading...</p>
     } else if (isLoadingBudgetError) {
         content = <p>Error...</p>
-    } else {content = data.map((category)=>{return <BudgetPanel key={category.id} category={category} />
+    } else {
+        content = data.map((category)=>{return <BudgetPanel key={category.id} category={category} />
 }) }
 
     return (<div>

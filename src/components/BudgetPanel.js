@@ -1,12 +1,19 @@
 import { useState } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { removeBudgetCategory } from '../store/store'
 import { GoTriangleLeft, GoTriangleDown, GoX } from 'react-icons/go'
 import ExpensesAddingPanel from './ExpensesAddingPanel'
+import { useFetchExpensesQuery } from '../store/store'
 
 function BudgetList({ category }) {
 	const [showExpensesAddingPanel, setShowExpensesAddingPanel] = useState(false)
 	const dispatch = useDispatch()
+    const { data } = useFetchExpensesQuery(category) 
+
+  
+    const reducer = (acc, current) => {return acc + current.price}
+	const reducerResult = data?.reduce(reducer, 0)
+
 
 	const handleDeleteClick = () => {
 		dispatch(removeBudgetCategory(category))
@@ -17,7 +24,7 @@ function BudgetList({ category }) {
 	}
 
 	return (
-		<div class='basis-1/4 p-2 w-80'>
+		<div class='basis-1/4 p-2'>
 			<div class='flex space-x-40 p-3 bg-slate-100'>
 				<div class='w-14 text-teal-700 font-bold uppercase'>{category.name}</div>
 				<div class='flex'>
@@ -29,12 +36,10 @@ function BudgetList({ category }) {
 					</button> : <button class='text-teal-700 text-xl' onClick={handleShowExpensesAddingPanel}>
 						<GoTriangleLeft />
 					</button> }
-					{/* <button class='text-teal-700 text-xl' onClick={handleShowExpensesAddingPanel}>
-						<GoTriangleLeft />
-					</button> */}
 				</div>
 			</div>
 			<div>{showExpensesAddingPanel && <ExpensesAddingPanel category={category} />}</div>
+            <div class='w-18 pt-5 text-orange-500 font-bold'>Total: {reducerResult} zł</div>
 		</div>
 	)
 }

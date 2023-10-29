@@ -39,7 +39,6 @@ const budgetSlice = createSlice({
         builder.addCase(removeBudgetCategory.fulfilled,(state, action)=>{
             state.isLoading = false;
             state.data = state.data.filter((category)=>{return category.id !== action.payload.id});
-            console.log(action)
         });
         builder.addCase(removeBudgetCategory.rejected,(state,action)=>{
             state.isLoading = false;
